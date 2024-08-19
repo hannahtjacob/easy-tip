@@ -101,10 +101,14 @@ struct ContentView: View {
                             .font(.title)
                     }
                 }
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                    
+                
+                if !amountIsFocused {
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        EditButton()
+                        
+                    }
                 }
+                
             }
             
         }
