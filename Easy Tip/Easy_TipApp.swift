@@ -11,7 +11,11 @@ import SwiftUI
 struct Easy_TipApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView()
         }
+        
+        
     }
+    
+    
 }
