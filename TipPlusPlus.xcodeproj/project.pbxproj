@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BB11A5822C246D030003C667 /* Tip++.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tip++.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB11A5822C246D030003C667 /* TipPlusPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipPlusPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB11A5852C246D030003C667 /* Easy_TipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_TipApp.swift; sourceTree = "<group>"; };
 		BB11A5872C246D030003C667 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BB11A5892C246D080003C667 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,7 +47,7 @@
 		BB11A5832C246D030003C667 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BB11A5822C246D030003C667 /* Tip++.app */,
+				BB11A5822C246D030003C667 /* TipPlusPlus.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BB11A5812C246D030003C667 /* Tip++ */ = {
+		BB11A5812C246D030003C667 /* TipPlusPlus */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BB11A5902C246D080003C667 /* Build configuration list for PBXNativeTarget "Tip++" */;
+			buildConfigurationList = BB11A5902C246D080003C667 /* Build configuration list for PBXNativeTarget "TipPlusPlus" */;
 			buildPhases = (
 				BB11A57E2C246D030003C667 /* Sources */,
 				BB11A57F2C246D030003C667 /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = "Tip++";
+			name = TipPlusPlus;
 			productName = "Easy Tip";
-			productReference = BB11A5822C246D030003C667 /* Tip++.app */;
+			productReference = BB11A5822C246D030003C667 /* TipPlusPlus.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BB11A57D2C246D030003C667 /* Build configuration list for PBXProject "Tip++" */;
+			buildConfigurationList = BB11A57D2C246D030003C667 /* Build configuration list for PBXProject "TipPlusPlus" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BB11A5812C246D030003C667 /* Tip++ */,
+				BB11A5812C246D030003C667 /* TipPlusPlus */,
 			);
 		};
 /* End PBXProject section */
@@ -342,7 +342,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BB11A57D2C246D030003C667 /* Build configuration list for PBXProject "Tip++" */ = {
+		BB11A57D2C246D030003C667 /* Build configuration list for PBXProject "TipPlusPlus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB11A58E2C246D080003C667 /* Debug */,
@@ -351,7 +351,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB11A5902C246D080003C667 /* Build configuration list for PBXNativeTarget "Tip++" */ = {
+		BB11A5902C246D080003C667 /* Build configuration list for PBXNativeTarget "TipPlusPlus" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BB11A5912C246D080003C667 /* Debug */,
