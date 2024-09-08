@@ -97,7 +97,7 @@ struct ContentView: View {
             .toolbar {
                 ToolbarItem(placement: .principal) {
                     VStack {
-                        Text("Easy Tip")
+                        Text("Tip++")
                             .font(.title)
                     }
                 }
